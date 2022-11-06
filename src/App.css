@@ -1,0 +1,24 @@
+nav {
+	display: flex;
+	height: 50px;
+	background-color: #333;
+	justify-content: space-between;
+}
+
+.link {
+	color: #fff;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	text-decoration: none;
+	padding: 0 1.2rem;
+	height: 100%;
+}
+
+.link:hover {
+	background-color: #111;
+}
+
+.link.active {
+	background-color: #04aa6d;
+}

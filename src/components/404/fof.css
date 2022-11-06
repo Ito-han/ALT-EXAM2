@@ -1,0 +1,15 @@
+.main {
+	display: table;
+	width: 100%;
+	height: calc(100vh - 50px);
+	text-align: center;
+}
+
+.fof {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.fof h1 {
+	font-size: 50px;
+}
